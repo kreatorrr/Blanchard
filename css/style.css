@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Open Sans";
-  src: url("./fonts/OpenSans-Bold.ttf") format("truetype");
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 900;
 }
 @font-face {
   font-family: "Open Sans";
-  src: url("./fonts/OpenSans-Semibold.ttf") format("truetype");
+  src: url("../fonts/OpenSans-Semibold.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "Open Sans";
-  src: url("./fonts/OpenSans-Regular.ttf") format("truetype");
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 100;
 }
@@ -124,10 +124,11 @@ body {
 .header_search {
   margin-left: auto;
   margin-right: 0;
+  fill: var(--color-white);
 }
 /* main */
 .main {
-  background-image: url(img/main/main-img.png);
+  background-image: url(../img/main/main-img.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -174,7 +175,7 @@ body {
 }
 /* gallery */
 .gallery {
-  background-image: url(img/gallery/gallery-back.png);
+  background-image: url(../img/gallery/gallery-back.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -217,7 +218,7 @@ body {
 }
 
 .gallery_input-checkbox:checked + label::before {
-  background-image: url(img/gallery/checkbox-checked.svg);
+  background-image: url(../img/gallery/checkbox-checked.svg);
   background-position: center;
   border-color: #c283f3;
 }
@@ -315,17 +316,17 @@ body {
   margin-right: 50px;
 }
 .event_card:nth-child(1) {
-  background-image: url(img/event/img1.png);
+  background-image: url(../img/event/img1.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .event_card:nth-child(2) {
-  background-image: url(img/event/img2.png);
+  background-image: url(../img/event/img2.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .event_card:nth-child(3) {
-  background-image: url(img/event/img3.png);
+  background-image: url(../img/event/img3.png);
   background-repeat: no-repeat;
   background-size: contain;
 }

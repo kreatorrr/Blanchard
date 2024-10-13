@@ -1,0 +1,44 @@
+/* header */
+.header_a:hover {
+  color: var(--color-light-purple);
+}
+.header_a:focus {
+  color: var(--color-dark-purple);
+}
+.header_a:active {
+  background-color: var(--color-dark-purple);
+  color: var(--color-white);
+}
+.header_search:hover {
+  fill: var(--color-light-purple);
+}
+.header_search:focus {
+  fill: var(--color-dark-purple);
+}
+.header_search:active {
+  background-color: var(--color-dark-purple);
+  fill: var(--color-white);
+}
+/* main */
+.main_btn:hover {
+  outline: 1px solid;
+  outline-color: var(--color-light-purple);
+}
+.main_btn:focus {
+  outline: 1px solid;
+  outline-color: var(--color-white);
+}
+.main_btn:active {
+  background-color: var(--color-dark-purple);
+}
+/* event */
+.event_a:hover {
+  color: var(--color-light-purple);
+}
+.event_a:focus {
+  color: var(--color-dark-purple);
+}
+.event_a:active {
+  background-color: var(--color-dark-purple);
+  color: var(--color-white);
+}
