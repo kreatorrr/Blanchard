@@ -55,6 +55,8 @@ picture {
 body {
   overflow-x: hidden;
   min-width: 320px;
+  height: 100%;
+  overflow-y: hidden;
   font-family: "Open Sans", "Roboto", sans-serif;
   background-color: var(--color-white);
 }
@@ -97,7 +99,6 @@ body {
   margin: 0 auto;
   padding: 0 160px;
   min-width: 1920px;
-  width: 100%;
 }
 .container:not(:first-child) {
   margin-bottom: 80px;
@@ -292,8 +293,6 @@ body {
   line-height: 32px;
   color: var(--color-dark-gray);
   max-width: 1080px;
-}
-.catalog_p {
   margin-bottom: 50px;
 }
 .catalog_text {
@@ -311,6 +310,9 @@ body {
   max-width: 500px;
   padding: 313px 31px 49px 50px;
   border: 1px solid var(--color-border-gray);
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
 }
 .event_card:not(:last-child) {
   margin-right: 50px;
@@ -342,6 +344,7 @@ body {
   color: var(--color-dark-gray);
   margin-bottom: 10px;
   max-width: 400px;
+  white-space: wrap;
 }
 .event_p {
   font-size: 16px;
@@ -352,6 +355,8 @@ body {
   max-width: 400px;
 }
 .event_a {
+  position: absolute;
+  bottom: 50px;
   align-items: flex-end;
 }
 .event_a:hover {
