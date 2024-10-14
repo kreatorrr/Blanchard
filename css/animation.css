@@ -42,3 +42,25 @@
   background-color: var(--color-dark-purple);
   color: var(--color-white);
 }
+/* contact */
+.contact_button:hover {
+  outline: 1px solid var(--color-light-purple);
+}
+.contact_button:focus {
+  border: 0;
+  background-color: var(--color-purple-defolt);
+  color: var(--color-white);
+}
+.contact_button:active {
+  outline: 1px solid var(--color-light-purple);
+}
+/* footer */
+.footer_link:hover {
+  fill: var(--color-white);
+}
+.footer_link:focus {
+  fill: var(--color-white);
+}
+.footer_link:active {
+  fill: var(--color-dark-purple);
+}

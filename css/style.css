@@ -307,7 +307,7 @@ body {
   margin-bottom: 16px;
 }
 .event_card {
-  max-width: 500px;
+  width: 500px;
   padding: 313px 31px 49px 50px;
   border: 1px solid var(--color-border-gray);
   flex-direction: column;
@@ -422,6 +422,9 @@ body {
   border: 1px solid var(--color-border-gray);
   border-radius: 100px;
   padding: 9px 24px;
+  font-size: 16px;
+  font-weight: 100;
+  color: var(--color-dark-gray);
 }
 .contact_input:not(:last-child) {
   margin-right: 20px;
@@ -450,4 +453,7 @@ body {
 }
 .footer_a:not(:last-child) {
   margin-right: 20px;
+}
+.footer_link{
+  fill: var(--color-border-gray);
 }
